@@ -1,4 +1,4 @@
-require "legion/version"
+require 'legion/version'
 
 module Legion
   # Your code goes here...
