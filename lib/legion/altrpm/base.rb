@@ -42,8 +42,8 @@ module Legion
         # make it more ruby and testable
         ClimateControl.modify LANG: locale do
           command = Cocaine::CommandLine.new('md5sum', ':file')
-          command.run(file: file)
-        end.split.first
+          command.run(file: file).split.first
+        end
       end
 
       def size
